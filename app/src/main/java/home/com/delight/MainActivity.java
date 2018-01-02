@@ -3,6 +3,7 @@ package home.com.delight;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,5 +20,7 @@ public class MainActivity extends AppCompatActivity {
     mTextView.setText("After hotfix");
 
     mTextView.setAllCaps(false);
+
+    mTextView.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
   }
 }
