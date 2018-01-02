@@ -21,6 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
     mTextView.setAllCaps(true);
 
+    mTextView.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
+
     mTextView.setGravity(Gravity.CENTER);
 
     mTextView.setError("Error");
