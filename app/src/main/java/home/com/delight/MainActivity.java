@@ -17,5 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     mTextView.setTextColor(Color.CYAN);
     mTextView.setText("Text after color change");
+
+    mTextView.setAllCaps(true);
   }
 }
