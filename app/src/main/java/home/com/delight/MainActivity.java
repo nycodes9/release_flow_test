@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     setContentView(R.layout.activity_main);
     mTextView = findViewById(R.id.activity_main_text_tv);
 
-    mTextView.setTextColor(Color.DKGRAY);
+    mTextView.setTextColor(Color.BLACK);
 
     mTextView.setAllCaps(true);
   }
