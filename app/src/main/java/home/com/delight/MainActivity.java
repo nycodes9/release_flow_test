@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     mTextView.setTextColor(Color.DKGRAY);
 
-    mTextView.setAllCaps(true);
+    mTextView.setAllCaps(false);
   }
 }
