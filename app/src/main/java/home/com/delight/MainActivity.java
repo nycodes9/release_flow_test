@@ -17,8 +17,9 @@ public class MainActivity extends AppCompatActivity {
     mTextView = findViewById(R.id.activity_main_text_tv);
 
     mTextView.setTextColor(Color.BLACK);
+    mTextView.setText("After hotfix");
 
-    mTextView.setAllCaps(true);
+    mTextView.setAllCaps(false);
 
     mTextView.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL);
   }
