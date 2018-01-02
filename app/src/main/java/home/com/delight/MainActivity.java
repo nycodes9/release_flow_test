@@ -1,6 +1,5 @@
 package home.com.delight;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -16,5 +15,6 @@ public class MainActivity extends AppCompatActivity {
     mTextView = findViewById(R.id.activity_main_text_tv);
 
     mTextView.setTextColor(Color.CYAN);
+    mTextView.setText("Text after color change");
   }
 }
