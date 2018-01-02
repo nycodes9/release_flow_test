@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
     mTextView = findViewById(R.id.activity_main_text_tv);
+    mTextView.setText("Text after color change");
   }
 }
