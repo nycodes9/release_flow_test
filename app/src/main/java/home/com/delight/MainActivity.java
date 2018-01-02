@@ -16,5 +16,6 @@ public class MainActivity extends AppCompatActivity {
     mTextView = findViewById(R.id.activity_main_text_tv);
 
     mTextView.setTextColor(Color.CYAN);
+    mTextView.setText("Text after color change");
   }
 }
